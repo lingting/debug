@@ -1,7 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 #react
 **/.umi
-../vas/target/
+target/
 /dist.rar
 # compiled output
 /dist
@@ -16,7 +16,7 @@ scripts/var.less
 /yarn.lock
 
 # IDEs and editors
-/.idea
+.idea/
 .project
 .classpath
 .c9/
