@@ -1,0 +1,13 @@
+server:
+  port: 40303
+
+spring:
+  profiles:
+    active: @profiles.active@
+  application:
+    name: @artifactId@
+lingting:
+  security:
+    authorization:
+      remote: true
+      remote-host: http://service-upms
